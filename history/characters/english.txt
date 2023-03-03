@@ -1,0 +1,19 @@
+﻿george_iii = {
+	name = "George"
+	dynasty = "Saxe-Coburg-Gotha"
+	religion = "catholic"
+	culture = "english"
+	1738.5.4 = {
+		birth = "1738.5.4"
+	}
+}
+
+arthur_phillip = {
+	name = "Arthur"
+	dynasty = "Phillip"
+	religion = "catholic"
+	culture = "english"
+	1738.8.11 = {
+		birth = "1738.8.11"
+	}
+}

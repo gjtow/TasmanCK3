@@ -1,0 +1,61 @@
+﻿name_list_aboriginal = {
+	
+	male_names = {
+		Jarrah Nullah Coen Koen Ngarra Jiemba Iluka Waru Tjandamurra Jandamarra Yarran Monaro Birrani Minjarra
+	}
+	female_names = {
+		Kirra Maali Mahlee Marli Jedda Yindi Alinta Lowanna Alira Allira Allyra Keira Tarni Tahnee Kylie Medika Killara
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	bastard_dynasty_prefix = "dynnp_fitz"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+	
+	mercenary_names = {
+		{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
+		{ name = "mercenary_company_hawkwoods_band" }
+	}
+}
+
+name_list_woiworung = {
+	
+	male_names = {
+		Jarrah Nullah Coen Koen Ngarra Jiemba Iluka Waru Tjandamurra Jandamarra Yarran Monaro Birrani Minjarra
+	}
+	female_names = {
+		Kirra Maali Mahlee Marli Jedda Yindi Alinta Lowanna Alira Allira Allyra Keira Tarni Tahnee Kylie Medika Killara
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	bastard_dynasty_prefix = "dynnp_fitz"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+	
+	mercenary_names = {
+		{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
+		{ name = "mercenary_company_hawkwoods_band" }
+	}
+}

@@ -1,0 +1,6 @@
+version="1.0"
+name="Tasman"
+replace_path="history/provinces"
+replace_path="history/titles"
+picture="thumbnail.png"
+supported_version="1.8.1"

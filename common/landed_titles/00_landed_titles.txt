@@ -1,0 +1,1045 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+e_britain = {
+	color = { 202 26 26 }
+	landless = yes
+	definite_form = yes
+}
+
+# EMPIRES
+e_australia = {
+	color = { 1 150 1 }
+
+	capital = b_sydney
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:english
+				}
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	k_nsw = {
+		color = { 150 150 255 }
+
+		capital = b_sydney
+
+		d_sydney = {
+			color = { 150 150 255 }
+
+			capital = b_sydney
+
+			c_eora = {
+				color = { 150 150 255 }
+
+				b_sydney = {
+					province = 3
+
+					color = { 150 150 255 }
+				}
+			}
+		}
+	}
+
+	k_vic = {
+		color = { 1 1 255 }
+
+		capital = b_melbourne
+
+		d_kulin = {
+			color = { 1 1 255 }
+
+			capital = b_melbourne
+
+			c_wurundjuri = {
+				color = { 1 1 255 }
+
+				b_melbourne = {
+					province = 1
+
+					color = { 1 1 255 }
+
+					cultural_names = {
+						name_list_woiworung = cn_naarm
+						name_list_aboriginal = cn_naarm
+					}
+				}
+			}
+
+			c_wathaurong = {
+				color = { 1 1 255 }
+
+				b_geelong = {
+					province = 2
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_bunurong = {
+				color = { 1 1 255 }
+
+				b_cranbourne = {
+					province = 4
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_taungurong = {
+				color = { 1 1 255 }
+
+				b_eildon = {
+					province = 6
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_ngurrauiillam = {
+				color = { 1 1 255 }
+
+				b_shepparton = {
+					province = 7
+
+					color = { 1 1 255 }
+				}
+			}
+		}
+
+		d_east_victoria = {
+			color = { 1 1 255 }
+
+			capital = b_lakes_entrance
+
+			c_gunai = {
+				color = { 1 1 255 }
+
+				b_lakes_entrance = {
+					province = 5
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_jaitmatang = {
+				color = { 1 1 255 }
+
+				b_corryong = {
+					province = 13
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_waveroo = {
+				color = { 1 1 255 }
+
+				b_wodonga = {
+					province = 14
+
+					color = { 1 1 255 }
+				}
+			}
+		}
+
+		d_west_victoria = {
+			color = { 1 1 255 }
+
+			capital = b_colac
+
+			c_gulidjan = {
+				color = { 1 1 255 }
+
+				b_colac = {
+					province = 8
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_djargurdwurung = {
+				color = { 1 1 255 }
+
+				b_leslie_manor = {
+					province = 9
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_gadubanud = {
+				color = { 1 1 255 }
+
+				b_wye_river = {
+					province = 10
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_giraiwurung = {
+				color = { 1 1 255 }
+
+				b_warrnambool = {
+					province = 11
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_gunditjmara = {
+				color = { 1 1 255 }
+
+				b_portland = {
+					province = 12
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_djabwurung = {
+				color = { 1 1 255 }
+
+				b_ararat = {
+					province = 16
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_jardwadjali = {
+				color = { 1 1 255 }
+
+				b_horsham = {
+					province = 17
+
+					color = { 1 1 255 }
+				}
+			}
+		}
+
+		d_north_victoria = {
+			color = { 1 1 255 }
+
+			capital = b_bendigo
+
+			c_djadjawurung = {
+				color = { 1 1 255 }
+
+				b_bendigo = {
+					province = 15
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_baraba_baraba = {
+				color = { 1 1 255 }
+
+				b_echuca = {
+					province = 18
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_wergaia = {
+				color = { 1 1 255 }
+
+				b_nhill = {
+					province = 19
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_latje_latje = {
+				color = { 1 1 255 }
+
+				b_red_cliffs = {
+					province = 20
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_wemba_wemba = {
+				color = { 1 1 255 }
+
+				b_swan_hill = {
+					province = 21
+
+					color = { 1 1 255 }
+				}
+			}
+
+			c_dadi_dadi = {
+				color = { 1 1 255 }
+
+				b_kooloonong = {
+					province = 22
+
+					color = { 1 1 255 }
+				}
+			}
+		}
+	}
+
+	k_tas = {
+		color = { 100 255 100 }
+
+		capital = b_hobart
+
+		d_tas = {
+			color = { 100 255 100 }
+
+			capital = b_hobart
+
+			c_nuenonne = {
+				color = { 100 255 100 }
+
+				b_hobart = {
+					province = 23
+
+					color = { 100 255 100 }
+				}
+			}
+
+			c_paredarerme = {
+				color = { 100 255 100 }
+
+				b_port_arthur = {
+					province = 24
+
+					color = { 100 255 100 }
+				}
+			}
+
+			c_tyerremotepanner = {
+				color = { 100 255 100 }
+
+				b_launceston = {
+					province = 25
+
+					color = { 100 255 100 }
+				}
+			}
+
+			c_pyemmairre = {
+				color = { 100 255 100 }
+
+				b_bridport = {
+					province = 26
+
+					color = { 100 255 100 }
+				}
+			}
+
+			c_tommeginne = {
+				color = { 100 255 100 }
+
+				b_devonport = {
+					province = 27
+
+					color = { 100 255 100 }
+				}
+			}
+
+			c_lairmairrener = {
+				color = { 100 255 100 }
+
+				b_derwent_bridge = {
+					province = 28
+
+					color = { 100 255 100 }
+				}
+			}
+
+			c_peerapper = {
+				color = { 100 255 100 }
+
+				b_strahan = {
+					province = 29
+
+					color = { 100 255 100 }
+				}
+			}
+
+			c_toogee = {
+				color = { 100 255 100 }
+
+				b_strathgordon = {
+					province = 30
+
+					color = { 100 255 100 }
+				}
+			}
+		}
+	}
+}
+
+e_aotearoa = {
+	color = { 100 50 255 }
+
+	capital = b_wellington
+
+	cultural_names = {
+		name_list_maori = cn_aotearoa
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:english
+				}
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	k_north_island = {
+		color = { 100 50 205 }
+		definite_form = yes
+
+		capital = b_wellington
+
+		d_wellington = {
+			color = { 100 50 155 }
+
+			capital = b_wellington
+
+			c_ti_ati_awa = {
+				color = { 100 50 105 }
+				definite_form = yes
+
+				b_wellington = {
+					province = 31
+
+					color = { 100 50 105 }
+				}
+			}
+
+			c_ngati_toa = {
+				color = { 100 60 105 }
+				definite_form = yes
+
+				b_porirua = {
+					province = 32
+
+					color = { 100 60 105 }
+				}
+			}
+
+			c_muaupoko = {
+				color = { 100 70 105 }
+
+				b_paraparaumu = {
+					province = 33
+
+					color = { 100 70 105 }
+				}
+			}
+
+			c_ngati_kahungunu_ki_wairarapa = {
+				color = { 100 80 105 }
+				definite_form = yes
+
+				b_masterton = {
+					province = 34
+
+					color = { 100 80 105 }
+				}
+			}
+		}
+
+		d_manawatu_whanganui = {
+			color = { 110 50 155 }
+
+			capital = b_palmerston_north
+
+			c_rangitane = {
+				color = { 110 50 155 }
+
+				b_otaki = {
+					province = 35
+
+					color = { 110 50 155 }
+				}
+			}
+
+			c_ngati_apa = {
+				color = { 110 60 155 }
+				definite_form = yes
+
+				b_palmerston_north = {
+					province = 36
+
+					color = { 110 60 155 }
+				}
+			}
+
+			c_te_ati_hau = {
+				color = { 110 70 155 }
+				definite_form = yes
+
+				b_whanganui = {
+					province = 37
+
+					color = { 110 70 155 }
+				}
+			}
+
+			c_rangitane_1 = {
+				color = { 110 80 155 }
+
+				b_akitio = {
+					province = 38
+
+					color = { 110 80 155 }
+				}
+			}
+
+			c_ngati_haua = {
+				color = { 110 90 155 }
+				definite_form = yes
+
+				b_ohakune = {
+					province = 39
+
+					color = { 110 90 155 }
+				}
+			}
+
+			c_ngati_raukawa = {
+				color = { 110 100 155 }
+				definite_form = yes
+
+				b_taihape = {
+					province = 50
+
+					color = { 110 100 155 }
+				}
+			}
+		}
+
+		d_taranaki = {
+			color = { 120 50 155 }
+
+			capital = b_opunake
+
+			c_nga_rauru = {
+				color = { 120 50 155 }
+				definite_form = yes
+
+				b_waverley = {
+					province = 40
+
+					color = { 120 50 155 }
+				}
+			}
+
+			c_nga_raunui = {
+				color = { 120 60 155 }
+				definite_form = yes
+
+				b_patea = {
+					province = 41
+
+					color = { 120 60 155 }
+				}
+			}
+
+			c_nga_rauhine = {
+				color = { 120 70 155 }
+				definite_form = yes
+
+				b_hawera = {
+					province = 42
+
+					color = { 120 70 155 }
+				}
+			}
+
+			c_taranaki = {
+				color = { 120 80 155 }
+
+				b_opunake = {
+					province = 43
+
+					color = { 120 80 155 }
+				}
+			}
+
+			c_ngati_maru = {
+				color = { 120 90 155 }
+				definite_form = yes
+
+				b_stratford = {
+					province = 44
+
+					color = { 120 90 155 }
+				}
+			}
+
+			c_te_ati_awa = {
+				color = { 120 90 155 }
+				definite_form = yes
+
+				b_new_plymouth = {
+					province = 45
+
+					color = { 120 90 155 }
+				}
+			}
+
+			c_ngati_mutunga = {
+				color = { 120 100 155 }
+				definite_form = yes
+
+				b_urenui = {
+					province = 46
+
+					color = { 120 100 155 }
+				}
+			}
+
+			c_ngati_tama = {
+				color = { 120 110 155 }
+				definite_form = yes
+
+				b_whangamomona = {
+					province = 47
+
+					color = { 120 110 155 }
+				}
+			}
+		}
+
+		d_hawkes_bay = {
+			color = { 130 50 155 }
+
+			capital = b_opunake
+
+			c_ngati_kahungunu_ki_heretaunga = {
+				color = { 130 50 155 }
+				definite_form = yes
+
+				b_hastings = {
+					province = 48
+
+					color = { 130 50 155 }
+				}
+			}
+
+			c_ngati_kahungunu_ki_wairoa = {
+				color = { 130 60 155 }
+				definite_form = yes
+
+				b_napier = {
+					province = 49
+
+					color = { 130 60 155 }
+				}
+			}
+
+			c_ngati_tamanuhiri = {
+				color = { 130 70 155 }
+				definite_form = yes
+
+				b_mahia = {
+					province = 51
+
+					color = { 130 70 155 }
+				}
+			}
+		}
+
+		d_gisborne = {
+			color = { 140 50 155 }
+
+			capital = b_gisborne
+
+			c_rongo_whakaata = {
+				color = { 140 50 155 }
+				definite_form = yes
+
+				b_muriwai = {
+					province = 52
+
+					color = { 140 50 155 }
+				}
+			}
+
+			c_te_aitanga_a_makaki = {
+				color = { 140 60 155 }
+				definite_form = yes
+
+				b_tiniroto = {
+					province = 53
+
+					color = { 140 60 155 }
+				}
+			}
+
+			c_ngati_ruapani = {
+				color = { 140 70 155 }
+				definite_form = yes
+
+				b_gisborne = {
+					province = 54
+
+					color = { 140 70 155 }
+				}
+			}
+
+			c_ngati_tutekohe = {
+				color = { 140 80 155 }
+				definite_form = yes
+
+				b_makorori = {
+					province = 55
+
+					color = { 140 80 155 }
+				}
+			}
+
+			c_te_aitanga_a_hauti = {
+				color = { 140 90 155 }
+				definite_form = yes
+
+				b_tolaga_bay = {
+					province = 56
+
+					color = { 140 90 155 }
+				}
+			}
+
+			c_ngati_porou = {
+				color = { 140 100 155 }
+				definite_form = yes
+
+				b_ruatoria = {
+					province = 57
+
+					color = { 140 100 155 }
+				}
+			}
+		}
+
+		d_bay_of_plenty = {
+			color = { 150 50 155 }
+
+			capital = b_tauranga
+
+			c_whanau_a_apanui = {
+				color = { 150 50 105 }
+				definite_form = yes
+
+				b_te_kaha = {
+					province = 58
+
+					color = { 150 50 105 }
+				}
+			}
+
+			c_nga_tai = {
+				color = { 150 60 105 }
+				definite_form = yes
+
+				b_toatoa = {
+					province = 59
+
+					color = { 150 60 105 }
+				}
+			}
+
+			c_whakatohea = {
+				color = { 150 70 105 }
+
+				b_opotiki = {
+					province = 60
+
+					color = { 150 70 105 }
+				}
+			}
+
+			c_ngati_awa = {
+				color = { 150 80 105 }
+				definite_form = yes
+
+				b_whakatane = {
+					province = 61
+
+					color = { 150 80 105 }
+				}
+			}
+
+			c_tuhoe = {
+				color = { 150 90 105 }
+
+				b_kawerau = {
+					province = 62
+
+					color = { 150 90 105 }
+				}
+			}
+
+			c_te_arawa = {
+				color = { 150 100 105 }
+				definite_form = yes
+
+				b_te_puke = {
+					province = 63
+
+					color = { 150 100 105 }
+				}
+			}
+
+			c_ngai_te_rangi = {
+				color = { 150 110 105 }
+				definite_form = yes
+
+				b_tauranga = {
+					province = 64
+
+					color = { 150 110 105 }
+				}
+			}
+
+			c_ngati_ranginui = {
+				color = { 150 120 105 }
+				definite_form = yes
+
+				b_katikati = {
+					province = 65
+
+					color = { 150 120 105 }
+				}
+			}
+		}
+
+		d_waikato = {
+			color = { 160 50 155 }
+
+			capital = b_hamilton
+
+			c_ngati_tuwharetoa = {
+				color = { 160 50 105 }
+				definite_form = yes
+
+				b_taupo = {
+					province = 67
+
+					color = { 160 50 105 }
+				}
+			}
+
+			c_ngati_maniapoto = {
+				color = { 160 60 105 }
+				definite_form = yes
+
+				b_te_kuiti = {
+					province = 68
+
+					color = { 160 60 105 }
+				}
+			}
+
+			c_ngati_huia = {
+				color = { 160 70 105 }
+				definite_form = yes
+
+				b_te_awamutu = {
+					province = 69
+
+					color = { 160 70 105 }
+				}
+			}
+
+			c_ngati_raukawa_1 = {
+				color = { 160 80 105 }
+				definite_form = yes
+
+				b_kawhia = {
+					province = 70
+
+					color = { 160 80 105 }
+				}
+			}
+
+			c_ngati_hamuta = {
+				color = { 160 90 105 }
+				definite_form = yes
+
+				b_hamilton = {
+					province = 71
+
+					color = { 160 90 105 }
+				}
+			}
+
+			c_ngati_tamatera = {
+				color = { 160 100 105 }
+				definite_form = yes
+
+				b_paeroa = {
+					province = 72
+
+					color = { 160 100 105 }
+				}
+			}
+
+			c_ngati_maru_1 = {
+				color = { 160 110 105 }
+				definite_form = yes
+
+				b_whangamata = {
+					province = 73
+
+					color = { 160 110 105 }
+				}
+			}
+
+			c_ngati_whanaunga = {
+				color = { 160 120 105 }
+				definite_form = yes
+
+				b_whitianga = {
+					province = 74
+
+					color = { 160 120 105 }
+				}
+			}
+
+			c_ngati_paoa = {
+				color = { 160 130 105 }
+				definite_form = yes
+
+				b_pokeno = {
+					province = 75
+
+					color = { 160 130 105 }
+				}
+			}
+		}
+
+		d_auckland = {
+			color = { 170 50 155 }
+
+			capital = b_auckland
+
+			c_ngati_te_ata = {
+				color = { 170 50 105 }
+				definite_form = yes
+
+				b_waiuku = {
+					province = 76
+
+					color = { 170 50 105 }
+				}
+			}
+
+			c_ngati_tai = {
+				color = { 170 60 105 }
+				definite_form = yes
+
+				b_pukekohe = {
+					province = 77
+
+					color = { 170 60 105 }
+				}
+			}
+
+			c_ngati_whatua_ki_tamaki = {
+				color = { 170 70 105 }
+				definite_form = yes
+
+				b_auckland = {
+					province = 78
+
+					color = { 170 70 105 }
+				}
+			}
+
+			c_ngati_mahuta = {
+				color = { 170 80 105 }
+				definite_form = yes
+
+				b_piha = {
+					province = 79
+
+					color = { 170 80 105 }
+				}
+			}
+
+			c_ngati_whatua = {
+				color = { 170 90 105 }
+				definite_form = yes
+
+				b_warkworth = {
+					province = 80
+
+					color = { 170 90 105 }
+				}
+			}
+		}
+
+		d_northland = {
+			color = { 180 50 155 }
+
+			capital = b_whangarei
+
+			c_nga_puhi = {
+				color = { 180 50 105 }
+				definite_form = yes
+
+				b_whangarei = {
+					province = 81
+
+					color = { 180 50 105 }
+				}
+			}
+
+			c_ngati_kahu = {
+				color = { 180 60 105 }
+				definite_form = yes
+
+				b_mangonui = {
+					province = 82
+
+					color = { 180 60 105 }
+				}
+			}
+
+			c_te_rarawa = {
+				color = { 180 70 105 }
+				definite_form = yes
+
+				b_ahipara = {
+					province = 83
+
+					color = { 180 70 105 }
+				}
+			}
+
+			c_te_aopouri = {
+				color = { 180 80 105 }
+				definite_form = yes
+
+				b_cape_reinga = {
+					province = 84
+
+					color = { 180 80 105 }
+				}
+			}
+		}
+	}
+}

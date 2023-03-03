@@ -1,0 +1,11 @@
+﻿heritage_english = {
+	type = heritage
+}
+
+heritage_southeast = {
+	type = heritage
+}
+
+heritage_maori = {
+	type = heritage
+}

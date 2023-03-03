@@ -1,0 +1,26 @@
+﻿woiworung = {
+	color = {100 100 100}
+	created = 1.1.1
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_southeast
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+		tradition_castle_keepers
+		tradition_longbow_competitions
+	}
+	
+	name_list = name_list_woiworung
+	
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		100 = african
+	}
+}

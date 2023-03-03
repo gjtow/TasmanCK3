@@ -1,0 +1,5 @@
+﻿bm_1788 = {
+	start_date = 1788.1.26
+	is_playable = yes
+	group = bm_group_1788
+}

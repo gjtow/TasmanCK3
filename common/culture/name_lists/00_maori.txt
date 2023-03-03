@@ -1,0 +1,30 @@
+﻿name_list_maori = {
+	
+	male_names = {
+		Kai Kauri Manaaki Nikau Rawiri Tia Wiremu Aata Ahika Akahata Amahau Anewa Apera Aperahama Arapeta Atama Atawhai Etera Hahona Haimona Harata Heketoro Henare Hohepa Huatare Hunapo Hunu Iarere Ietepere Ietoro Ihaka Ikaroa Iorangi Iraia Irirangi Iwi Kaihautu Kamaka Koraka Mahaka Purta Puta Rangi Rapata Rongo Ropata Ruru Tanemahuta Tangaroa Tawera Tayn Tui
+	}
+	female_names = {
+		Ana Anahera Aroha Ataahua Hana Kaia Kora Maia Manaia Tia Ahere Ahorangi Ahurewa Aohe Aio Airini Aka Akenehi Akona Ametihita Anahira Aoatea Aputa Aramoana Arataki Arihi Arihia Arikiwi Arona Aronui Arorangi Atarangi Atawhai Awhireinga Emere Erihapeti Haeata Haeatatanga Hahana Harata Hau Hauku Haumiatiketike Hine Hinewai Hokaka Horowai Huihana Hunapo Hunu Ikaroa Inia Iorangi Iraia Irirangi Iwa Iwi Kaheru Kahikatea Kahu Kahuiwi Kahukura Kaihautu Kakarauri Kamaka Kaori Katarine Kiri Mahuika Marama Ngaio Ngaire Nyree Pania Pounamu RongoTino Aroha Tui Whina
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	bastard_dynasty_prefix = "dynnp_fitz"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+	
+	mercenary_names = {
+		{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
+		{ name = "mercenary_company_hawkwoods_band" }
+	}
+}

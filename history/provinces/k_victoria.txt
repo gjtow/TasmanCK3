@@ -1,0 +1,500 @@
+#k_victoria
+##d_kulin ###################################
+###c_wurundjeri
+1 = {
+	culture = woiworung
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+2 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+3 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+4 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+5 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+6 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+7 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+8 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+9 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+10 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+11 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+12 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+13 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+14 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+15 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+16 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+17 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+18 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+19 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+20 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+21 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+22 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+23 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+24 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+25 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+26 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+27 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+28 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+29 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+30 = {
+	culture = aboriginal
+	religion = dreamtime
+	holding = tribal_holding
+}
+
+31 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+32 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+33 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+34 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+35 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+36 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+37 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+38 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+39 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+40 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+41 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+42 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+43 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+44 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+45 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+46 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+47 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+48 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+49 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+50 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+51 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+52 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+53 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+54 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+55 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+56 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+57 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+58 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+59 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+60 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+61 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+62 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+63 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+64 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+65 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+67 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+68 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+69 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+70 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+71 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+72 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+73 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+74 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+75 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+76 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+77 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+78 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+79 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+80 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+81 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+82 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+83 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}
+
+84 = {
+	culture = maori
+	religion = maori
+	holding = tribal_holding
+}

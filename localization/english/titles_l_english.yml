@@ -1,0 +1,48 @@
+﻿l_english:
+ TITLE_NAME:1 "$NAME|U$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ of $NAME$"
+ TITLE_DEFINITIVE_NAME:0 "the $TIER|U$ of $NAME$"
+ TITLE_CLAN_TIERED_NAME:0 "the $NAME$ $TIER|U$"
+ TITLE_TIER_AS_NAME:0 "$TIER|U$"
+ 
+ 
+ e_britain:0 "The British Empire"
+ e_britain_adj:0 "British"
+ 
+ 
+ e_australia:0 "Australia"
+ e_australia_adj:0 "Australian"
+
+
+ k_vic:0 "Victoria"
+ k_vic_adj:0 "Victorian"
+
+ d_kulin:0 "Kulin"
+ d_kulin_adj:0 "Kulin"
+ c_wurundjuri:0 "Wurundjuri"
+ c_wurundjuri_adj:0 "Wurundjuri"
+ b_melbourne:0 "Melbourne"
+ b_melbourne_adj:0 "Melburnian"
+
+
+ k_nsw:0 "New South Wales"
+ k_nsw_adj:0 "New South Welshman"
+
+ b_sydney:0 "Sydney"
+ b_sydney_adj:0 "Sydneysider"
+
+
+ k_tas:0 "Tasmania"
+ k_tas_adj:0 "Tasmanian"
+
+
+ k_qld:0 "Queensland"
+ k_qld_adj:0 "Queensland"
+ 
+ 
+ e_aotearoa:0 "New Zealand"
+ e_aotearoa_adj:0 "New Zealand"
+ 
+ 
+ k_north_island:0 "North Island"
+ k_north_island_adj:0 "North Island"

@@ -1,0 +1,12 @@
+e_britain = {	
+	1760.8.26 = {
+		holder = george_iii
+	}
+}
+
+k_nsw = {	
+	1788.1.26 = {
+		holder = arthur_phillip
+		liege = e_britain
+	}
+}
